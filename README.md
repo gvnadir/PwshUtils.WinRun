@@ -20,13 +20,13 @@ This module provides a single cmdlet:
 First, clone the repository (you can change the path if you use a different folder):
 
 ```powershell
-git clone https://github.com/tuo-utente/PwshUtils.WinRun "$HOME\projects\PwshUtils.WinRun"
+git clone https://github.com/tuo-utente/PwshUtils.WinRun "$HOME\Git\PwshUtils.WinRun"
 ```
 
 Make sure the path is included in your PowerShell module search path:
 
 ```powershell
-$env:PSModulePath += ";$HOME\projects"
+$env:PSModulePath += ";$HOME\Git"
 ```
 
 To make this change permanent, add that line to your PowerShell profile:
