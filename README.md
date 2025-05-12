@@ -49,11 +49,12 @@ Get-UtilWinRunCommands | Format-Table
 
 #### Example output:
 
-| Name       | Description                      |
-|------------|----------------------------------|
-| `cmd`      | Opens Command Prompt             |
-| `regedit`  | Opens the Registry Editor        |
-| `msconfig` | Opens System Configuration Tool  |
+| Name            | Command          | Description                          |
+|-----------------|------------------|--------------------------------------|
+| Control Panel   | `control`        | Open Control Panel                   |
+| Command Prompt  | `cmd`            | Open Command Prompt                  |
+| Registry Editor | `regedit`        | Open the Registry Editor            |
+| Services        | `services.msc`   | Manage Windows services              |
 
 ---
 
