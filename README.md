@@ -15,9 +15,27 @@ This module provides a single cmdlet:
 
 ## 🚀 Usage
 
-### 1. Import the module
+### 1. Clone and import the module
 
-If you cloned the repository into your `$env:PSModulePath`:
+First, clone the repository (you can change the path if you use a different folder):
+
+```powershell
+git clone https://github.com/tuo-utente/PwshUtils.WinRun "$HOME\projects\PwshUtils.WinRun"
+```
+
+Make sure the path is included in your PowerShell module search path:
+
+```powershell
+$env:PSModulePath += ";$HOME\projects"
+```
+
+To make this change permanent, add that line to your PowerShell profile:
+
+```powershell
+notepad $PROFILE
+```
+
+Then import the module:
 
 ```powershell
 Import-Module PwshUtils.WinRun
